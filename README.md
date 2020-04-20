@@ -1,5 +1,12 @@
 "# University-Dissertation"
 
+The overall goal of this project is to design, develop and implement a high quality mobile application based on the Android platform, that delivers an innovative new way of concept on how users record and view expenditures for the purposes of a budget managing application that incorporates AI features. The application built is a native Android application that uses XML and JAVA language and incorporates third party libraries such as retrofit and Picasso to aid in the production of the application.
+User testing has been carried out on a number of different devices to test the XML layout in addition Backbox testing has also been carried out to test the functionality of the produced application. 
+By producing an investigative approach in the analysis section and requirements section this will influence on how my synthesis is to be structured and what design and development functions I have considered throughout the project.
+Overall this produces a completed project that has been researched, thoroughly designed, developed and tested to create a working prototype application.
+To conclude, an evaluation of the project process and product has been discussed to conclude what has been done well and what needs improving.
+
+
 Extracting Mobile Application
 *Note:  If extraction fails it is probably due to very long naming directories
 	therefore extract it to a location such as the C drive or Desktop
