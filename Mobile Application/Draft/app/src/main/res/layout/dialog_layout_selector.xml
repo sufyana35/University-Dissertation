@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="312dip" android:padding="10dip">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="312dip">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="312dip"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/dialog_vertical_1"
+                android:text="Vertical rows 1"
+                android:padding="5dip"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border_white"
+                android:layout_margin="10dip" />
+
+            <Button
+                android:id="@+id/dialog_vertical_2"
+                android:padding="5dip"
+                android:text="Vertical rows 2"
+                android:background="@drawable/border_white"
+                android:layout_margin="10dip"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY" />
+
+            <Button
+                android:id="@+id/dialog_vertical_3"
+                android:padding="5dip"
+                android:text="Vertical rows 3"
+                android:background="@drawable/border_white"
+                android:layout_margin="10dip"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY" />
+
+            <Button
+                android:id="@+id/dialog_horizontal_1"
+                android:padding="5dip"
+                android:text="horizontal rows 1"
+                android:background="@drawable/border_white"
+                android:layout_margin="10dip"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/dialog_horizontal_2"
+                android:padding="5dip"
+                android:text="horizontal rows 2"
+                android:background="@drawable/border_white"
+                android:layout_margin="10dip"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/dialog_horizontal_3"
+                android:padding="5dip"
+                android:text="horizontal rows 3"
+                android:background="@drawable/border_white"
+                android:layout_margin="10dip"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

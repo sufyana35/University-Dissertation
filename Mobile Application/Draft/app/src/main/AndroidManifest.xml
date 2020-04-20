@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.sufya.draft">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".app.WelcomeScreen.WelcomeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".add_expenditure.addExpenditureActivity"
+            android:label="@string/title_add"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title_activity_welcome"
+            android:launchMode="singleInstance" />
+        <activity
+            android:name=".expense_list.ViewExpenseList"
+            android:label="View Expenses"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".search.Search"
+            android:label="Search"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".category.CategoryActivity"
+            android:label="Category"
+            android:launchMode="singleTask" />
+
+        <activity
+            android:name=".add_expenditure.CategoriesActivity"
+            android:label="Select Category Expense" />
+    </application>
+
+</manifest>

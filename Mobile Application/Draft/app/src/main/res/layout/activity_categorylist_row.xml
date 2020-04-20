@@ -1,0 +1,67 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent" android:layout_height="fill_parent"
+        android:layout_weight="60"
+        android:background="@color/icons"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Title"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:id="@+id/tv_category"
+            android:padding="5dp" />
+
+    </LinearLayout>
+
+        <LinearLayout android:layout_width="match_parent" android:layout_height="fill_parent"
+            android:layout_weight="40"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <LinearLayout
+                android:id="@+id/linearLayout2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:id="@+id/iv_categoryImage"
+                    android:scaleType="centerInside"
+                    android:padding="5dp"
+                    android:layout_gravity="center_vertical|center_horizontal"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Titles"
+                    android:textColor="@color/main"
+                    android:id="@+id/tv_subCategory"
+                    android:padding="5dp"
+                    android:layout_gravity="center_vertical|center_horizontal"
+                    android:background="@drawable/shadow"/>
+
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <!-- Views with default image and text, for demonstration.
+    They will be changed in the adapter -->
+
+
+

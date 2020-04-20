@@ -1,0 +1,263 @@
+<resources>
+    <string name="app_name">Moblet</string>
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+
+    <string name="slide_1_title">Welcome To Moblet!</string>
+    <string name="slide_1_desc">A New Way To Record And View Expenses!</string>
+
+    <string name="slide_2_title">A New Concept</string>
+    <string name="slide_2_desc">A New Innovative Application To Manage Expenses!</string>
+
+    <string name="slide_3_title">Beautiful Interface</string>
+    <string name="slide_3_desc">Stunning Interface And Expenses Are Viewed In A Totally Different Way Than Others!</string>
+
+    <string name="slide_4_title">Smart </string>
+    <string name="slide_4_desc">Auto Categorisation Of Expenses And Image Loading From Servers!</string>
+
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
+
+
+    <!-- registration_login -->
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_name">Full Name</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="btn_register">REGISTER</string>
+    <string name="btn_link_to_register">Not a member? Sign up now.</string>
+    <string name="btn_link_to_login">Already registred! Login Me.</string>
+    <string name="welcome">Welcome</string>
+    <string name="btn_logout">LOGOUT</string>
+    <string name="name">Fullname</string>
+
+    <!-- activity_home -->
+    <string name="hint_search">Search</string>
+
+
+    <!-- categories -->
+    <string name="title_add">Add Expense</string>
+
+    <string-array name="subCategory">
+        <!-- Entertainment -->
+        <item>Games</item>
+        <item>Movies</item>
+        <item>Music</item>
+        <item>Other Entertainment</item>
+        <item>Sports</item>
+
+        <!-- Food And Drink -->
+        <item>Dining Out</item>
+        <item>Groceries</item>
+        <item>Liquor</item>
+        <item>Other</item>
+
+        <!-- Home -->
+        <item>Electronics</item>
+        <item>Furniture</item>
+        <item>Household Supplies</item>
+        <item>Maintenance</item>
+        <item>Mortgage</item>
+        <item>Other Home</item>
+        <item>Pets</item>
+        <item>Rent</item>
+        <item>Services</item>
+
+        <!-- Life -->
+        <item>Clothing</item>
+        <item>Gifts</item>
+        <item>Insurance</item>
+        <item>Medical Expenses</item>
+        <item>Other Life</item>
+        <item>Taxes</item>
+
+        <!-- Transportation -->
+        <item>Bicycle</item>
+        <item>Bus/Train/Metro</item>
+        <item>Car</item>
+        <item>Fuel</item>
+        <item>Hotel</item>
+        <item>Other Transport</item>
+        <item>Parking</item>
+        <item>Plane</item>
+        <item>Taxi</item>
+
+        <!-- Uncategorised -->
+        <item>General</item>
+
+        <!-- Utilities -->
+        <item>Cleaning</item>
+        <item>Electricity</item>
+        <item>Heat/Gas</item>
+        <item>Other Utilities</item>
+        <item>Trash</item>
+        <item>TV/Phone/Internet</item>
+
+
+    </string-array>
+
+    <string-array name="category">
+        <!-- Entertainment -->
+        <item>Entertainment</item>
+        <item>Entertainment</item>
+        <item>Entertainment</item>
+        <item>Entertainment</item>
+        <item>Entertainment</item>
+
+        <!-- Food And Drink -->
+        <item>Food And Drink</item>
+        <item>Food And Drink</item>
+        <item>Food And Drink</item>
+        <item>Food And Drink</item>
+
+        <!-- Home -->
+        <item>Home</item>
+        <item>Home</item>
+        <item>Home</item>
+        <item>Home</item>
+        <item>Home</item>
+        <item>Home</item>
+        <item>Home</item>
+        <item>Home</item>
+        <item>Home</item>
+
+        <!-- Life -->
+        <item>Life</item>
+        <item>Life</item>
+        <item>Life</item>
+        <item>Life</item>
+        <item>Life</item>
+        <item>Life</item>
+
+        <!-- Transportation -->
+        <item>Transportation</item>
+        <item>Transportation</item>
+        <item>Transportation</item>
+        <item>Transportation</item>
+        <item>Transportation</item>
+        <item>Transportation</item>
+        <item>Transportation</item>
+        <item>Transportation</item>
+        <item>Transportation</item>
+
+        <!-- Uncategorised -->
+        <item>Uncategorised</item>
+
+        <!-- Utilities -->
+        <item>Utilities</item>
+        <item>Utilities</item>
+        <item>Utilities</item>
+        <item>Utilities</item>
+        <item>Utilities</item>
+        <item>Utilities</item>
+    </string-array>
+
+    <integer-array name="categoryImages">
+        <!-- Entertainment -->
+        <item>@drawable/games</item>
+        <item>@drawable/movies</item>
+        <item>@drawable/music</item>
+        <item>@drawable/other_entertainment</item>
+        <item>@drawable/sports</item>
+
+        <!-- Food And Drink -->
+        <item>@drawable/dining_out</item>
+        <item>@drawable/groceries</item>
+        <item>@drawable/liquor</item>
+        <item>@drawable/other_food</item>
+
+        <!-- Home -->
+        <item>@drawable/electronics</item>
+        <item>@drawable/furniture</item>
+        <item>@drawable/household_supplies</item>
+        <item>@drawable/maintenance</item>
+        <item>@drawable/mortgage</item>
+        <item>@drawable/other_home</item>
+        <item>@drawable/pets</item>
+        <item>@drawable/rent</item>
+        <item>@drawable/service</item>
+
+        <!-- Life -->
+        <item>@drawable/clothing</item>
+        <item>@drawable/gifts</item>
+        <item>@drawable/insurance</item>
+        <item>@drawable/medical_expenses</item>
+        <item>@drawable/other_life</item>
+        <item>@drawable/tax</item>
+
+        <!-- ~Transportation -->
+        <item>@drawable/bicycle</item>
+        <item>@drawable/bus</item>
+        <item>@drawable/car</item>
+        <item>@drawable/fuel</item>
+        <item>@drawable/hotel</item>
+        <item>@drawable/other_transport</item>
+        <item>@drawable/parking</item>
+        <item>@drawable/plane</item>
+        <item>@drawable/taxi</item>
+
+        <!-- Uncategorised -->
+        <item>@drawable/uncategorised</item>
+
+        <!-- Utilities -->
+        <item>@drawable/cleaning</item>
+        <item>@drawable/electricity</item>
+        <item>@drawable/heat</item>
+        <item>@drawable/uncategorised</item>
+        <item>@drawable/trash</item>
+        <item>@drawable/phone</item>
+
+    </integer-array>
+
+    <string-array name="category_modified">
+        <!-- Entertainment -->
+        <item>Entertainment</item>
+        <!-- Food And Drink -->
+        <item>Food And Drink</item>
+        <!-- Home -->
+        <item>Home</item>
+        <!-- Life -->
+        <item>Life</item>
+        <!-- Transportation -->
+        <item>Transportation</item>
+        <!-- Uncategorised -->
+        <item>Uncategorised</item>
+        <!-- Utilities -->
+        <item>Utilities</item>
+    </string-array>
+
+
+    <string name="title_activity_main2">Main2Activity</string>
+
+    <string-array name="month">
+        <!-- Months -->
+        <item>01</item>
+        <item>02</item>
+        <item>03</item>
+        <item>04</item>
+        <item>05</item>
+        <item>06</item>
+        <item>07</item>
+        <item>08</item>
+        <item>09</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+
+    <!-- Activity Add Expenditure Strings -->
+    <string name="priceFormat">0.00</string>
+    <string name="save">Save</string>
+    <string name="enterADescription">Enter A Description</string>
+
+    <!-- General Use Strings -->
+    <string name="category">Category</string>
+    <string name="subCategory">Sub - Category</string>
+    <string name="poundSign">£</string>
+    <string name="selectCategory">Select Category</string>
+
+
+
+</resources>

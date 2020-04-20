@@ -1,0 +1,150 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/icons"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainActivity">
+
+    <Button
+        android:text="@string/save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/BTN_expenditure_save"
+        android:layout_gravity="right"
+        android:background="@android:color/transparent" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#CCFFFFFF"
+        android:padding="10dp"
+        android:layout_margin="5dp">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:id="@+id/rlv"
+            android:layout_height="wrap_content"
+            android:padding="2dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/shadow">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="100dp"
+                android:id="@+id/iv_selectCategory"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:contentDescription="@string/selectCategory"
+                android:layout_alignParentStart="true"
+                android:layout_margin="5dp" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:text="@string/poundSign"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView7"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_below="@+id/ET_expenditure_enterDescription"
+            android:layout_alignLeft="@+id/ET_expenditure_enterDescription"
+            android:layout_alignStart="@+id/ET_expenditure_enterDescription"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:padding="5dp"
+            android:background="@drawable/shadow"
+            android:elevation="2dp"/>
+
+        <EditText
+            android:id="@+id/ET_expenditure_enterPrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:hint="@string/priceFormat"
+            android:inputType="number"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textColorHint="@color/secondary_text"
+            android:layout_below="@+id/ET_expenditure_enterDescription"
+            android:layout_alignLeft="@+id/textView7"
+            android:layout_alignStart="@+id/textView7"
+            android:layout_marginStart="40dp" />
+
+        <AutoCompleteTextView
+            android:id="@+id/ET_expenditure_enterDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="10dp"
+            android:layout_toEndOf="@+id/rlv"
+            android:layout_toRightOf="@+id/rlv"
+            android:hint="@string/enterADescription"
+            android:inputType="textPersonName"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textColorHint="@color/secondary_text" />
+
+        <TextView
+            android:text="@string/category"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/textView4"
+            android:layout_toRightOf="@+id/textView4"
+            android:layout_toEndOf="@+id/textView4"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:id="@+id/TV_expenditure_setCategory"
+            android:textAllCaps="true"
+            android:textColor="@color/colorPrimaryDark"
+            android:background="@drawable/shadow"
+            android:padding="5dp"/>
+
+        <TextView
+            android:text="@string/subCategory"
+            android:textAllCaps="true"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/primary_text"
+            android:textColorHint="@color/secondary_text"
+            android:id="@+id/TV_expenditure_setSubCategory"
+            android:layout_alignBaseline="@+id/textView5"
+            android:layout_alignBottom="@+id/textView5"
+            android:layout_toRightOf="@+id/textView5"
+            android:layout_toEndOf="@+id/textView5"
+            android:layout_marginLeft="11dp"
+            android:layout_marginStart="11dp"
+            android:padding="5dp"
+            android:background="@drawable/shadow"/>
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView4"
+            android:layout_alignStart="@+id/textView4"
+            android:layout_below="@+id/TV_expenditure_setCategory"
+            android:layout_marginTop="10dp"
+            android:layout_toLeftOf="@+id/TV_expenditure_setCategory"
+            android:text="Sub Category"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textColorHint="@color/secondary_text" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rlv"
+            android:layout_marginTop="10dp"
+            android:layout_toEndOf="@+id/rlv"
+            android:layout_toRightOf="@+id/rlv"
+            android:paddingTop="5dp"
+            android:text="Main Category"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textColorHint="@color/secondary_text" />
+
+
+    </RelativeLayout>
+
+</LinearLayout>
